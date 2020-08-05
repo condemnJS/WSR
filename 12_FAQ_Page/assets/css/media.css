@@ -1,0 +1,231 @@
+@media(max-width: 1600px) {
+    .container {
+        margin: 0 300px;
+    }
+}
+@media(max-width: 1400px) {
+    .container {
+        margin: 0 200px;
+    }
+    .arrow-up {
+        right: 50px;
+    }
+    .help_post {
+        flex-direction: column;
+    }
+}
+@media(max-width: 1200px) {
+    .container {
+        margin: 0 150px;
+    }
+}
+@media (max-width: 1100px) {
+    .container-wrapper {
+        margin: 0 70px;
+    }
+    .container {
+        margin: 0 100px;
+    }
+    .arrow-up {
+        right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    .images-blog img{
+        width: 350px;
+    }
+    footer {
+        height: 170px;
+    }
+    .arrow-up {
+        right: calc(50% - 18px);
+        top: calc(150px - 40px);
+    }
+}
+@media (max-width: 950px){
+    .container-wrapper {
+        margin: 0 35px;
+    }
+    .container {
+        margin: 0 50px;
+    }
+    .fot-logo {
+        width: 100%;
+    }
+    .company, .fot-blog {
+        margin-right: 20px;
+    }
+    .fot-navigation {
+        flex-wrap: wrap;
+    }
+    .select-question {
+        margin-right: 60px;
+    }
+    .select-question div {
+        width: 250px;
+    }
+}
+@media (max-width: 850px){
+    .container-wrapper {
+        margin: 0 15px;
+    }
+    .info-blog strong {
+        font-size: 16px;
+    }
+    .info-blog h1 {
+        font-size: 32px;
+    }
+    .info-blog p{
+        font-size: 14px;
+    }
+    .images-blog img{
+        width: 300px;
+    }
+}
+@media (max-width: 800px) {
+    #sidebar {
+        display: block;
+    }
+    .navigate {
+        display: none;
+    }
+    .help-wrapper {
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .OurBlogPost, .blog {
+        height: 300px;
+    }
+    .info-blog strong {
+        font-size: 14px;
+    }
+    .info-blog h1 {
+        font-size: 28px;
+    }
+    .info-blog p{
+        font-size: 12px;
+    }
+    .images-blog img{
+        width: 200px;
+    }
+    .quote {
+        width: 500px;
+        display: block;
+    }
+    .quote img {
+        position: static;
+    }
+    .posts-helper {
+        flex-direction: column;
+    }
+    .select-question {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+    .select-question div {
+        width: 100%;
+    }
+    .questions {
+        width: 100%;
+    }
+    .platforms {
+        margin-top: 0;
+    }
+    .posts-helper {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 550px) {
+    .info-blog h1 {
+        font-size: 24px;
+    }
+    .images-blog img{
+        width: 150px;
+    }
+    .container {
+        margin: 0 25px;
+    }
+    .platforms {
+        display: flex;
+        align-items: center;
+        height: 500px;
+    }
+    .views-post {
+        width: 400px;
+    }
+    .post-img img {
+        width: 400px;
+    }
+    .quote {
+        width: 400px;
+    }
+}
+@media (max-width: 400px) {
+    .OurBlogPost, .blog {
+        height: 250px;
+    }
+    .info-blog h1 {
+        font-size: 20px;
+    }
+    .images-blog img{
+        width: 120px;
+        margin-left: 5px;
+    }
+    .fot-logo p {
+        font-size: 14px;
+    }
+    .rules p, .helpers a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 360px){
+    .integrations {
+        margin-top: 25px;
+    }
+    .company {
+        margin-top: 25px;
+    }
+    .platforms {
+        height: 700px;
+    }
+    .fot-navigation {
+        height: 600px;
+    }
+    .helpers a {
+        margin-bottom: 80px;
+    }
+    .help-wrapper {
+        height: 115px;
+    }
+    footer {
+        height: 190px;
+    }
+    .arrow-up {
+        top: calc(150px - 20px);
+    }
+}
+@media (max-width: 340px){
+    #sidebar {
+        width: 230px;
+        right: -230px;
+    }
+    .toggle-btn {
+        right: 240px !important;
+    }
+    .search-input input {
+        width: 210px;
+    }
+    .views-post, .post-img img, .quote, .views-return {
+        width: 300px;
+    }
+    .previous-next a {
+        padding: 10px 20px;
+    }
+    .questions div h2 {
+        font-size: 20px;
+    }
+    .questions div p {
+        font-size: 14px;
+    }
+}

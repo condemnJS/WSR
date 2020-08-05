@@ -1,0 +1,261 @@
+@media(max-width: 1600px) {
+    .container {
+        margin: 0 300px;
+    }
+}
+@media(max-width: 1400px) {
+    .info-posts {
+        align-items: center;
+    }
+    .posts {
+        flex-direction: column;
+        width: 100%;
+    }
+    .reviews-posts {
+        margin-top: 150px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 1400px) {
+    .container {
+        margin: 0 200px;
+    }
+    .arrow-up {
+        right: 50px;
+    }
+}
+@media(max-width: 1200px) {
+    .container {
+        margin: 0 150px;
+    }
+}
+@media (max-width: 1100px) {
+    .container-wrapper {
+        margin: 0 70px;
+    }
+    .container {
+        margin: 0 100px;
+    }
+    .arrow-up {
+        right: 25px;
+    }
+}
+@media (max-width: 1000px){
+    .images-blog img{
+        width: 350px;
+    }
+    footer {
+        height: 170px;
+    }
+    .arrow-up {
+        right: calc(50% - 18px);
+        top: calc(150px - 40px);
+    }
+}
+@media (max-width: 950px){
+    .container-wrapper {
+        margin: 0 35px;
+    }
+    .container {
+        margin: 0 50px;
+    }
+    .fot-logo {
+        width: 100%;
+    }
+    .company, .fot-blog {
+        margin-right: 20px;
+    }
+    .fot-navigation {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 850px){
+    .container-wrapper {
+        margin: 0 15px;
+    }
+    .info-blog strong {
+        font-size: 16px;
+    }
+    .info-blog h1 {
+        font-size: 32px;
+    }
+    .info-blog p{
+        font-size: 14px;
+    }
+    .images-blog img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    #sidebar {
+        display: block;
+    }
+    .navigate {
+        display: none;
+    }
+    .info-posts {
+        height: 100%;
+    }
+    .post > div:first-child img {
+        width: 460px;
+    }
+    .post {
+        flex-direction: column;
+        height: 680px;
+        width: 460px;
+        margin-bottom: 50px;
+    }
+    .help-wrapper {
+        justify-content: center;
+    }
+}
+@media (max-width: 700px) {
+    .OurBlogPost, .blog {
+        height: 300px;
+    }
+    .info-blog strong {
+        font-size: 14px;
+    }
+    .info-blog h1 {
+        font-size: 28px;
+    }
+    .info-blog p{
+        font-size: 12px;
+    }
+    .images-blog img{
+        width: 200px;
+    }
+}
+@media (max-width: 550px) {
+    .OurBlogPost, .blog {
+        height: 250px;
+    }
+    .info-blog h1 {
+        font-size: 24px;
+    }
+    .images-blog img{
+        width: 150px;
+    }
+    .container {
+        margin: 0 25px;
+    }
+    .posts {
+        margin-top: 60px;
+    }
+    .post > div:first-child img {
+        width: 330px;
+    }
+    .post > div:last-child p {
+        font-size: 14px;
+    }
+    .post {
+        flex-direction: column;
+        height: 590px;
+        width: 330px;
+        margin-bottom: 50px;
+    }
+    .platforms {
+        display: flex;
+        align-items: center;
+        height: 500px;
+    }
+}
+@media (max-width: 400px) {
+    .OurBlogPost, .blog {
+        height: 250px;
+    }
+    .info-blog h1 {
+        font-size: 20px;
+    }
+    .images-blog img{
+        width: 120px;
+        margin-left: 5px;
+    }
+    .post > div:first-child img {
+        width: 310px;
+    }
+    .post {
+        height: 590px;
+        width: 310px;
+    }
+    .reviews-posts > div:not(:first-child){
+        width: 320px;
+    }
+    .recent-post {
+        height: 460px;
+    }
+    .master div:last-child h5 {
+        font-size: 16px;
+    }
+    .master div:last-child p {
+        font-size: 14px;
+    }
+    .popular-tags {
+        height: 270px;
+    }
+    .search-input input {
+        width: 230px;
+    }
+    .fot-logo p {
+        font-size: 14px;
+    }
+    .rules p, .helpers a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 360px){
+    .integrations {
+        margin-top: 25px;
+    }
+    .company {
+        margin-top: 25px;
+    }
+    .platforms {
+        height: 700px;
+    }
+    .fot-navigation {
+        height: 600px;
+    }
+    .helpers a {
+        margin-bottom: 80px;
+    }
+    .help-wrapper {
+        height: 115px;
+    }
+    footer {
+        height: 190px;
+    }
+    .arrow-up {
+        top: calc(150px - 20px);
+    }
+    .helpers:not(:first-child) a {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 340px){
+    #sidebar {
+        width: 230px;
+        right: -230px;
+    }
+    .toggle-btn {
+        right: 240px !important;
+    }
+    .post {
+        width: 290px;
+    }
+    .post > div:first-child img {
+        width: 290px;
+    }
+    .reviews-posts > div:not(:first-child){
+        width: 290px;
+    }
+    .popular-tags {
+        height: 270px;
+    }
+    .search-input input {
+        width: 210px;
+    }
+}
