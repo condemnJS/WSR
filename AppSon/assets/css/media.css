@@ -1,0 +1,496 @@
+@media (max-width: 1600px){
+   header {
+       height: 1000px;
+   }
+}
+@media (max-width: 1475px) {
+    .container-wrapper {
+        margin: 0 200px;
+    }
+    .descript {
+        padding-top: 80px;
+    }
+    .procedure {
+        height: 750px;
+    }
+    .options div {
+        margin-left: 0;
+    }
+    .price_wrapper {
+        height: 1020px;
+    }
+    .cards_info {
+        justify-content: flex-end;
+    }
+    .standard-premium {
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+    .price_cards {
+        margin-top: 125px;
+    }
+    .side {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .news-wrapper {
+        height: 1250px;
+    }
+}
+@media (max-width: 1350px) {
+    .long {
+        height: 1200px;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        margin: 70px 0;
+    }
+    .cards div:first-child {
+        margin-left: 0;
+    }
+    .cards div:nth-child(2) {
+        margin-top: 0;
+    }
+    .cards div {
+        margin-bottom: 50px;
+        margin-right: 0 !important;
+    }
+    .cards_info {
+        flex-direction: column;
+    }
+    .price_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .standard-premium {
+        margin-right: 0;
+    }
+    .price_wrapper {
+        height: 1650px;
+    }
+    .hands img {
+        width: 400px;
+    }
+}
+@media(max-width: 1160px){
+    .cards_info {
+        justify-content: center;
+    }
+    #sidebar {
+        display: block;
+    }
+    .nav-bar nav {
+        display: none;
+    }
+    .container-wrapper {
+        margin: 0 80px;
+    }
+    .reviews_info {
+        margin-left: 50px;
+    }
+    .reviews_info h1 {
+        font-size: 24px;
+    }
+    .hands img {
+        width: 300px;
+    }
+}@media(max-width: 908px){
+    .procedure {
+        height: 1000px;
+    }
+}
+@media(max-width: 900px){
+    header {
+        height: 850px;
+    }
+    .phones img:first-child {
+        width: 200px;
+    }
+    .post-description h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .post-description p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .post-description a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .images-posts img {
+        width: 300px;
+    }
+    .images-posts div img:first-child {
+        position: absolute;
+        top: 10%;
+        left: 60px;
+        width: 190px;
+    }
+    .images-posts div img:last-child{
+        width: 150px;
+        top: 22%;
+        left: 150px;
+    }
+    .images-posts_2 div img:first-child {
+        top: 10%;
+        left: -20px;
+    }
+    .images-posts_2 div img:last-child{
+        top: 22%;
+        left: 80px;
+    }
+    .hands img {
+        width: 250px;
+    }
+    .reviews_info h1 {
+        font-size: 22px;
+    }
+    .Free div:first-child {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .Free {
+        flex-direction: column;
+    }
+    .Free:first-child {
+        margin-right: 0;
+    }
+}
+@media (max-width: 740px){
+    .info_fot {
+        height: 150px;
+    }
+    footer {
+        height: 535px;
+    }
+}
+@media (max-width: 700px){
+    .post:first-child {
+        margin-top: 50px;
+    }
+    .post {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .post div {
+        margin: 0;
+    }
+    .post-description {
+        width: 100%;
+    }
+    .post:first-child {
+        flex-direction: column !important;
+    }
+    .hands img {
+        display: none;
+    }
+}
+@media (max-width: 600px){
+    header {
+        height: 750px;
+    }
+    .container-wrapper {
+        margin: 0 35px;
+    }
+    .phones img:first-child{
+        width: 170px;
+    }
+    .main-description h1{
+        font-size: 28px;
+    }
+    .main-description p {
+        font-size: 14px;
+    }
+    .main-btn a {
+        margin-right: 20px;
+        padding: 10px 30px;
+    }
+    .main_news > img {
+        display: block;
+        margin: 0 auto;
+        width: 380px;
+    }
+    .main_news h3 {
+        font-size: 20px;
+    }
+    .main_news h3, .main_news p {
+        width: 380px;
+    }
+    .side-news {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .side-news div:first-child {
+        margin-bottom: 20px;
+    }
+    .side-news div:last-child {
+        margin-left: 0;
+        max-width: 450px;
+    }
+    .news-wrapper {
+        height: 1525px;
+    }
+    .info_fot {
+        padding: 0 !important;
+    }
+    .subscribe-form input[type="text"] {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        height: 700px;
+    }
+    .container-wrapper {
+        margin: 0 10px;
+    }
+    .phones-wrapper {
+        margin-top: 70px;
+    }
+    .phones img:first-child{
+        width: 140px;
+    }
+    .reviews_info {
+        margin-left: 20px;
+    }
+    .reviews_info h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .card_review {
+        width: 300px;
+    }
+    .subscribe-form input[type="text"] {
+        max-width: 240px;
+    }
+}
+@media (max-width: 400px){
+    .long {
+        height: 1100px;
+    }
+    header {
+        height: 600px;
+    }
+    .container-wrapper {
+        margin: 0 10px;
+    }
+    .phones img:first-child{
+        width: 120px;
+    }
+    .main-description h1{
+        font-size: 24px;
+    }
+    .main-description p {
+        font-size: 12px;
+    }
+    .phones-wrapper {
+        margin-top: 40px;
+    }
+    .main-btn a {
+        margin-right: 10px;
+        padding: 8px 25px;
+    }
+    .cards div {
+        width: 300px;
+    }
+    .descript h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .descript p {
+        font-size: 14px;
+    }
+    .standard-premium {
+        width: 300px;
+        height: 580px;
+    }
+    .info_price {
+        width: 300px;
+    }
+    .info_price h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .info_price p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .btn-year-mount a {
+        padding: 10px 35px;
+    }
+    .price_wrapper {
+        height: 1540px;
+    }
+    .price_cards {
+        margin-top: 60px;
+    }
+    .reviews_info h1 {
+        width: 240px;
+    }
+    .reviews_wrapper {
+        height: 500px;
+    }
+    .news-wrapper {
+        height: 1540px;
+    }
+    .header-news h1{
+        font-size: 28px;
+    }
+    .header-news p {
+        font-size: 14px;
+    }
+    .main_news > img{
+        width: 320px;
+    }
+    .main_news p, .main_news h3 {
+        width: 320px;
+    }
+    .main_news p {
+        font-size: 14px;
+    }
+    .Free div:first-child h1 {
+        font-size: 24px;
+    }
+    .info_fot div:first-child p {
+        font-size: 14px;
+    }
+    .info_fot {
+        height: 180px;
+    }
+    .info_fot div {
+        margin: 0;
+    }
+    footer {
+        height: 565px;
+    }
+    .info_fot div a {
+        font-size: 14px !important;
+    }
+    .subscribe-form input[type="text"] {
+        max-width: 200px;
+    }
+    .subscribe-form button {
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 340px) {
+    .long {
+        height: 1000px;
+    }
+    header {
+        height: 600px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    }
+    #sidebar {
+        width: 230px;
+        right: -230px;
+    }
+    .toggle-btn {
+        right: 240px !important;
+    }
+    .phones img:first-child {
+        width: 100px;
+    }
+    .cards div {
+        height: 250px;
+        width: 280px;
+    }
+    .cards div h4 {
+        font-size: 16px;
+    }
+    .cards div p {
+        font-size: 12px;
+    }
+    .arrow-down img {
+    }
+    .images-posts img {
+        width: 250px;
+    }
+    .images-posts div img:first-child {
+        position: absolute;
+        top: 10%;
+        left: 30px;
+        width: 170px;
+    }
+    .images-posts div img:last-child{
+        width: 150px;
+        top: 17%;
+        left: 60px;
+    }
+    .images-posts_2 div img:first-child {
+        top: 10%;
+        left: -20px;
+    }
+    .images-posts_2 div img:last-child{
+        top: 17%;
+        left: 40px;
+    }
+    .info_price {
+        width: 250px;
+    }
+    .info_price h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .info_price p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .btn-year-mount a {
+        padding: 10px 30px;
+    }
+    .standard-premium {
+        width: 250px;
+    }
+    .reviews_info {
+        margin-left: 10px;
+    }
+    .card_review {
+        width: 250px;
+        height: 260px;
+    }
+    .main_news > img{
+        width: 260px;
+    }
+    .main_news p, .main_news h3 {
+        width: 260px;
+    }
+    .header-news h1{
+        font-size: 24px;
+    }
+    .info_fot div p {
+        margin-left: 5px;
+    }
+    .info_fot div a, .info_fot div p {
+        font-size: 13px !important;
+    }
+    .subscribe-form input[type="text"] {
+        max-width: 180px;
+    }
+    .subscribe-form button {
+        padding: 7px 10px;
+    }
+}
+@media (max-width: 300px){
+    .main-btn a {
+        padding: 5px 10px;
+    }
+    .cards div {
+        width: 250px;
+        height: 220px;
+    }
+    .cards div img {
+        margin: 20px auto;
+    }
+    .cards div p {
+        margin-top: 15px;
+    }
+    .descript {
+        padding-top: 40px;
+    }
+}
